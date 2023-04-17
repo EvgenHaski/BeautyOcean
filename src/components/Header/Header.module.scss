@@ -1,0 +1,65 @@
+.root {
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background-color: black;
+  color: #fff;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 0 10px;
+  text-decoration: none;
+  &:hover {
+    background-color: #4361ee;
+  }
+}
+
+.buttons {
+  button {
+    margin-left: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+.search_wrapper {
+  position: relative;
+}
+.search_main {
+  z-index: 10;
+  margin-right: 537px;
+  outline: 0;
+  padding-left: 36px;
+  border-radius: 5px;
+  height: 36.5px;
+  width: 150px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  border: 1px solid #4361ee;
+  &:focus {
+    border: 2px solid #4361ee;
+  }
+}
+.svg_main {
+  z-index: 11;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}

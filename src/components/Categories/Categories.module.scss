@@ -1,0 +1,58 @@
+.service {
+  position: absolute;
+  top: 118px;
+  left: 9px;
+  width: 24px;
+  height: 24px;
+}
+.clearIcon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: absolute;
+  left: 264px;
+  top: 75px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.wrapper {
+  z-index: 11;
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  background: #fff;
+  width: 290px;
+  overflow: hidden;
+  border-radius: 5px;
+  svg {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    z-index: 11;
+    height: 30px;
+    width: 30px;
+  }
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    padding-left: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+.active {
+  background-color: #e1e3e5;
+}
+.svg_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+

@@ -1,0 +1,126 @@
+.root {
+  width: 355px;
+  height: 355px;
+  position: relative;
+}
+.wrapper_one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_photo {
+  position: absolute;
+  background: linear-gradient(135.09deg, rgba(0, 0, 0, 0.2) 2.46%, rgba(0, 0, 0, 0) 59.56%);
+  border-radius: 10px;
+  opacity: 12%;
+  width: 355px;
+  height: 355px;
+  display: flex;
+  object-fit: cover;
+  z-index: -1;
+}
+.avatar {
+  margin-top: 20px;
+  width: 86px;
+  height: 88.05px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.name {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  color: #000000;
+  z-index: 5;
+  margin: 10px 0 0 0;
+}
+.category {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 16px;
+  color: #000000;
+  margin: 10px 0 0 0;
+}
+.block {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.star {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+.rating {
+  margin: -8px 0 0 0;
+  font-weight: 700;
+  font-size: 15px;
+}
+.price {
+  background: #4361ee;
+  border-radius: 5px;
+  width: 120px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 9px;
+    color: #ffffff;
+  }
+  svg {
+    width: 12px;
+    height: 12px;
+    margin-left: 2px;
+  }
+}
+.jobs {
+  background: rgba(235, 255, 0, 0.4);
+  border: 1px solid #4361ee;
+  border-radius: 5px;
+  width: 100px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 32px;
+  right: 8px;
+  p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 9px;
+    color: #4361ee;
+  }
+}
+.check {
+  z-index: 5;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto 0 auto;
+  width: 193.31px;
+  height: 32.43px;
+  cursor: pointer;
+  &:hover {
+    background-color: #4361ee;
+  }
+}

@@ -1,0 +1,36 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  height: 271px;
+  width: 100%;
+}
+.download {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+  margin: 44px 0 0 0;
+}
+.text {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 8px;
+}
+.button {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #FFFFFF;
+  width: 230px;
+  height: 35px;
+  background: #000000;
+  border-radius: 5px;
+  &:hover {
+    background-color: #4361ee;
+  }
+}

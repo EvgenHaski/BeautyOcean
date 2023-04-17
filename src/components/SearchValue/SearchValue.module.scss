@@ -1,0 +1,99 @@
+.root {
+  padding-top: 57.5px;
+  position: relative;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  outline: 0;
+  padding-left: 36px;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15), 0 0 1px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  margin: auto 0 0 0;
+  height: 38px;
+  width: 290px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  &:focus {
+    border: 2px solid #4361ee;
+  }
+}
+.input {
+  margin-bottom: auto;
+}
+.search {
+  position: absolute;
+  top: 75px;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}
+.service {
+  position: absolute;
+  top: 118px;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}
+.location {
+  position: absolute;
+  top: 165px;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}
+.date {
+  position: absolute;
+  top: 210px;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}
+.clearIcon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: absolute;
+  left: 264px;
+  top: 75px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.text {
+  display: flex;
+  align-items: center;
+  p {
+    color: #fff;
+  }
+}
+.filters {
+  padding-left: 26px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background: #fff;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  margin: auto 0 auto 0;
+  position: relative;
+  svg {
+    top: 12px;
+    left: 7px;
+    position: absolute;
+  }
+}
